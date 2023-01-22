@@ -1,0 +1,197 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+
+/* Navbar */
+nav img{
+    margin-left: -0.5rem;
+}
+/* Akhir Navbar */
+
+.jumbotron {
+    padding-top: 6rem;
+    background: #5352ED;
+}
+
+.jumbotron img {
+  /* Add any other styles for your image here */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Style untuk gambar ketika di-hover */
+.jumbotron img:hover {
+  transform: scale(1.1);
+}
+
+/* About */
+.about img {
+    /* Add any other styles for your image here */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Style untuk gambar ketika di-hover */
+  .about img:hover {
+    transform: scale(1.1);
+  }
+/* Akhir About */
+
+section {
+    padding-top: 1rem;
+}
+
+/* Project */
+/* Style untuk gambar */
+.card {
+  /* Add any other styles for your image here */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Style untuk gambar ketika di-hover */
+.card:hover {
+  transform: scale(1.09);
+}
+
+/* Style untuk button */
+.btn {
+    /* Add any other styles for your button here */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px #000;
+  }
+  
+  /* Style untuk button ketika di-hover */
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 7px rgba(21, 19, 19, 0.8);
+}
+
+.btn:active {
+    transform: scale(0.95);
+    background-color: #3CE6B4;
+    box-shadow: 2px 2px 5px #333;
+  }
+  
+  
+
+/* Akhir Project */
+
+
+/* Footer */
+footer {
+    background-color: #0A306A;
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+
+footer .socials {
+    padding: 1rem 0;
+}
+
+footer .socials a{
+    margin: 1rem;
+}
+
+footer .socials a:hover{
+    color: #fff;
+}
+
+footer .links a{
+    padding: 0.7rem 1rem;
+    text-decoration: navajowhite;
+}
+
+footer .links a:hover{
+    color : #fff;
+}
+
+footer .credit a{
+    text-decoration: none;
+}
+
+footer .credit a:hover{
+    color: #fff;
+}
+
+/* Loading */
+#loading {
+    display: none;
+    border-radius: 50%;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 110px;
+    height: 110px;
+    background-color: #5352ED;
+    border: 4px solid #0A306A;
+}
+
+#loading.active {
+    display: flex;
+    justify-content: center;
+    animation: spin 1s linear infinite;
+}
+
+#loading p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px; /* mengatur ukuran font */
+    color: white; /* mengatur warna font */
+}
+
+
+@keyframes spin {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@media (max-width : 768px){
+    .about img{
+        width: 350px;
+    }
+    nav img{
+    margin-left: -15rem;
+    }
+
+  
+}
+
+@media (max-width : 576px) {
+    #jumbotron img{
+        width: 100%;
+    }
+
+    .card:hover {
+        transform: scale(1.03);
+    }
+
+    .jumbotron img:hover {
+        transform: scale(1);
+    }
+  
+    .about img:hover {
+        transform: scale(1);
+      }
+    
+      nav img{
+        margin-left: -4rem;
+    }
+ 
+}
+
+
