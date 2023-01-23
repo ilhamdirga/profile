@@ -171,6 +171,10 @@ footer .credit a:hover{
 }
 
 @media (max-width : 576px) {
+    #jumbotron #sc{
+        padding-bottom: 2rem;
+    }
+
     #jumbotron img{
         width: 90%;
     }
