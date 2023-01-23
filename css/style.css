@@ -198,10 +198,9 @@ footer .credit a:hover{
 }
 
 @media (max-width : 450px) {
-    nav img{
+
+      nav img{
         margin-left: -4rem;
     }
  
 }
-
-
