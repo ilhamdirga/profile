@@ -164,16 +164,15 @@ footer .credit a:hover{
     .about img{
         width: 350px;
     }
+
     nav img{
     margin-left: -15rem;
     }
-
-  
 }
 
 @media (max-width : 576px) {
     #jumbotron img{
-        width: 100%;
+        width: 90%;
     }
 
     .card:hover {
@@ -181,15 +180,15 @@ footer .credit a:hover{
     }
 
     .jumbotron img:hover {
-        transform: scale(1);
+        transform: scale(1.03);
     }
   
     .about img:hover {
-        transform: scale(1);
+        transform: scale(1.03);
       }
     
       nav img{
-        margin-left: -4rem;
+        margin-left: -6rem;
     }
  
 }
